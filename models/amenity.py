@@ -1,12 +1,9 @@
-#!/usr/bin/python
-""" holds class Amenity"""
+#!/usr/bin/env python3
+""" Class Amenity """
+
 from models.base_model import BaseModel
 
 
 class Amenity(BaseModel):
-    """Representation of Amenity """
+    """ Class Amenity """
     name = ""
-
-    def __init__(self, *args, **kwargs):
-        """initializes Amenity"""
-        super().__init__(*args, **kwargs)
